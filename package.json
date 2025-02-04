@@ -1,0 +1,18 @@
+{
+  "name": "filmes-atividades-backend",
+  "version": "1.0.0",
+  "description": "atividade de revisão Back-End",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Back-End",
+    "dev",
+    "Javascript",
+    "SENAI",
+    "filmes"
+  ],
+  "author": "Beatriz Lima",
+  "license": "MIT"
+}
