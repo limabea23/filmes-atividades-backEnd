@@ -3,4 +3,5 @@ const router = express.Router();
 const movieController = require("../controllers/movieController");
 
 router.get("/movies", movieController.getAllMovies);
-get.post("/movies", movieController.addMovie);
+router.post("/movies", movieController.addMovie);
+router.put("/movies",movieController.updateMovie);
