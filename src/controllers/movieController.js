@@ -12,10 +12,16 @@ const router = {
     addMovie: (req, res) => {
         try {
             const { title, director, duration, plays } = req.body;
-            if(!title || !directorr || !duration) {
+            if(!title || !director || !duration) {
                 throw new Error('Preencha todos os campos :/')
             }
-            //finalizar a partir daqui
+            const film = new Movie (title, director, duration, plays)
+            lista.addMovie(film);
+            res.status(200).json({message: "Criado com sucesso :)"});
+        } catch (error) {
+            res.status(400).json({message: "Erro ao criar filme :(", error});
         }
-    }
-}
+    },
+
+    getAllMovie
+};
