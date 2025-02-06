@@ -23,5 +23,12 @@ const router = {
         }
     },
 
-    getAllMovie
+    getAllMovies: (req, res) => {
+        try {
+            const movies = lista.getAllMovies();
+            res.status(200).json(movies);
+        } catch (error) {
+            res.status(404).json({message: "Erro ao buscar filmes :(", error});
+        }
+    },
 };
