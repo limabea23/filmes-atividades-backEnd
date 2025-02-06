@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies>
+    <movie-data>
+        <title>A Cinco Passos De Você</title>
+        <director>Justin Baldoni</director>
+        <duration>1h57</duration>
+        <plays>20</plays>
+    </movie-data>
+    <movie-data>
+        <title>Amor à Primeira Vista</title>
+        <director>Vanessa Caswill</director>
+        <duration>1h31</duration>
+        <plays>1</plays>
+    </movie-data>
+</movies>
