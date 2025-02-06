@@ -8,3 +8,5 @@ router.get("/song/:id", movieController.getMovieById);
 router.put("/movies",movieController.updateMovie);
 router.delete("/movies/:id", movieController.deleteMovie);
 router.get("movie/top10", movieController.getTop10Movies);
+
+module.exports = router;
