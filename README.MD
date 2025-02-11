@@ -44,7 +44,11 @@ Este projeto segue a arquitetura MVC (Model-View-Controller)
 ## Routes
 
 `router.get("/movies", movieController.getAllMovies);`: Listar todos os filmes
+
 `router.post("/movies", movieController.addMovie);`: Criar/adicionar um novo filme
+
 `router.get("/movies/:id", movieController.getMovieById);`: Buscar o filme por ID
+
 `router.put("/movies",movieController.updateMovie);`: Atualizar um filme
+
 `router.delete("/movies/:id", movieController.deleteMovie);`: Deletar um filme
